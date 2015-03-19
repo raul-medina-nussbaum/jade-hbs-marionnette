@@ -14,7 +14,7 @@ module.exports = function(grunt) {
         watch: {
             jade: {
                 files: ['jade/**/*.jade'],
-                tasks: ['jade','handlebars']
+                tasks: ['jade','handlebars','concat:js']
             },
             handlebars: {
                 files: ['hbs/**/*.html'],
